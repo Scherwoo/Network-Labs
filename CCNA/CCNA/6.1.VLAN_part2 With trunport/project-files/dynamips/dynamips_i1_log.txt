@@ -1,0 +1,50 @@
+Mar 15 00:57:33.523 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 15 00:57:33.525 HYPERVISOR: Started on IP = localhost, TCP port = 60816.
+Mar 15 00:57:33.747 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 15 00:57:33.748 HYPERVISOR: exec_cmd: hypervisor working_dir D:\LabGns3\jeremi_it_Lab\6.1.VLAN_part2 With trunport\project-files\dynamips 
+Mar 15 00:57:33.818 GENERAL: working_dir=D:\LabGns3\jeremi_it_Lab\6.1.VLAN_part2 With trunport\project-files\dynamips
+Mar 15 00:57:33.821 HYPERVISOR: exec_cmd: hypervisor working_dir D:\LabGns3\jeremi_it_Lab\6.1.VLAN_part2 With trunport\project-files\dynamips\da267415-0352-42e8-9dc3-59c7910d9b9f 
+Mar 15 00:57:33.822 GENERAL: working_dir=D:\LabGns3\jeremi_it_Lab\6.1.VLAN_part2 With trunport\project-files\dynamips\da267415-0352-42e8-9dc3-59c7910d9b9f
+Mar 15 00:57:33.824 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Mar 15 00:57:33.831 VM: VM R1 created.
+Mar 15 00:57:33.833 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Mar 15 00:57:33.834 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Mar 15 00:57:33.837 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Eugene_Mp/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Mar 15 00:57:33.839 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 15 00:57:33.839 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c09aa0 
+Mar 15 00:57:33.841 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Mar 15 00:57:33.842 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Mar 15 00:57:33.844 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Mar 15 00:57:33.846 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 15 00:57:33.847 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-16ESW 
+Mar 15 00:57:34.365 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Eugene_Mp/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Mar 15 00:57:40.153 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Mar 15 00:57:40.155 VM: VM Ghost created.
+Mar 15 00:57:40.157 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Eugene_Mp/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Mar 15 00:57:40.158 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Mar 15 00:57:40.159 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost D:\LabGns3\jeremi_it_Lab\6.1.VLAN_part2 With trunport\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Mar 15 00:57:40.160 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 15 00:57:40.161 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Mar 15 00:57:40.161 HYPERVISOR: exec_cmd: vm start Ghost 
+Mar 15 00:57:40.729 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Mar 15 00:57:40.732 HYPERVISOR: exec_cmd: vm stop Ghost 
+Mar 15 00:57:40.879 VM: VM Ghost shutdown.
+Mar 15 00:57:40.880 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Mar 15 00:57:40.883 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Mar 15 00:57:40.883 VM: VM Ghost destroyed.
+Mar 15 00:57:40.904 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Mar 15 00:57:40.906 HYPERVISOR: exec_cmd: vm set_ghost_file R1 D:\LabGns3\jeremi_it_Lab\6.1.VLAN_part2 With trunport\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Mar 15 00:57:40.907 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 15 00:57:40.908 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Mar 15 00:57:40.909 HYPERVISOR: exec_cmd: vm start R1 
+Mar 15 00:58:11.236 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 15 00:58:11.252 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 15 01:08:42.979 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 15 01:08:42.980 HYPERVISOR: exec_cmd: vm stop R1 
+Mar 15 01:08:43.108 VM: VM R1 shutdown.
+Mar 15 01:08:43.109 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 15 01:08:43.113 HYPERVISOR: exec_cmd: vm delete R1 
+Mar 15 01:08:43.113 VM: VM R1 destroyed.
+Mar 15 01:08:43.116 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 15 01:08:43.145 HYPERVISOR: Stopped.
+Mar 15 01:08:43.152 GENERAL: reset done.
