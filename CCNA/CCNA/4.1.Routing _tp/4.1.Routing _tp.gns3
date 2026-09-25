@@ -383,9 +383,9 @@
                     "ethernet_adapters": 4,
                     "l1_keepalives": false,
                     "md5sum": "0b8b9e14ca99b68c654e44c4296857ba",
-                    "nvram": 16,
+                    "nvram": 256,
                     "path": "i86bi-linux-l2-ipbasek9-15.1g.bin",
-                    "ram": 256,
+                    "ram": 1024,
                     "serial_adapters": 0,
                     "usage": "",
                     "use_default_iou_values": true
@@ -399,7 +399,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5001,
+                "console": 5004,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -423,9 +423,9 @@
                     "ethernet_adapters": 4,
                     "l1_keepalives": false,
                     "md5sum": "0b8b9e14ca99b68c654e44c4296857ba",
-                    "nvram": 16,
+                    "nvram": 256,
                     "path": "i86bi-linux-l2-ipbasek9-15.1g.bin",
-                    "ram": 256,
+                    "ram": 1024,
                     "serial_adapters": 0,
                     "usage": "",
                     "use_default_iou_values": true
@@ -470,7 +470,7 @@
                     "cpus": 1,
                     "create_config_disk": false,
                     "hda_disk_image": "Ubuntu 16.04.6 (64bit).vmdk",
-                    "hda_disk_image_md5sum": "b1031643a4b41e6d5f0158d814996f8b",
+                    "hda_disk_image_md5sum": "33b2964cef607c1c9fe748db8a2fa6ea",
                     "hda_disk_interface": "virtio",
                     "hdb_disk_image": "",
                     "hdb_disk_image_md5sum": null,
@@ -509,7 +509,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5003,
+                "console": 5006,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -538,7 +538,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5005,
+                "console": 5009,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -607,7 +607,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5006,
+                "console": 5010,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -676,7 +676,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5007,
+                "console": 5011,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -747,6 +747,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.56.1",
-    "zoom": 84
+    "version": "2.2.61",
+    "zoom": 71
 }

@@ -675,7 +675,7 @@
                     "cpus": 1,
                     "create_config_disk": false,
                     "hda_disk_image": "Ubuntu 16.04.6 (64bit).vmdk",
-                    "hda_disk_image_md5sum": "b1031643a4b41e6d5f0158d814996f8b",
+                    "hda_disk_image_md5sum": "33b2964cef607c1c9fe748db8a2fa6ea",
                     "hda_disk_interface": "virtio",
                     "hdb_disk_image": "",
                     "hdb_disk_image_md5sum": null,
@@ -774,7 +774,7 @@
                     "cpus": 1,
                     "create_config_disk": false,
                     "hda_disk_image": "vios-adventerprisek9-m.vmdk.SPA.156-1.T",
-                    "hda_disk_image_md5sum": "8617d2e4b068f199cf5bbcc19b2e5f05",
+                    "hda_disk_image_md5sum": "e7cb1bbd0c59280dd946feefa68fa270",
                     "hda_disk_interface": "virtio",
                     "hdb_disk_image": "IOSv_startup_config.img",
                     "hdb_disk_image_md5sum": "bc605651c4688276f81fd59dcf5cc786",
@@ -813,7 +813,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5009,
+                "console": 5012,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -883,7 +883,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5011,
+                "console": 5014,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -903,7 +903,7 @@
                 "port_name_format": "Ethernet{segment0}/{port0}",
                 "port_segment_size": 4,
                 "properties": {
-                    "application_id": 2,
+                    "application_id": 1,
                     "ethernet_adapters": 4,
                     "l1_keepalives": false,
                     "md5sum": "ffe884f8e762b762d7886c51d8ee015c",
@@ -925,7 +925,7 @@
                 "compute_id": "vm",
                 "console": null,
                 "console_auto_start": false,
-                "console_type": null,
+                "console_type": "none",
                 "custom_adapters": [],
                 "first_port_name": null,
                 "height": 71,
@@ -963,6 +963,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.56.1",
-    "zoom": 69
+    "version": "2.2.61",
+    "zoom": 82
 }

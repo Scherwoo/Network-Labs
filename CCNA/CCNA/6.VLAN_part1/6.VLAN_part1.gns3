@@ -437,7 +437,7 @@
         "nodes": [
             {
                 "compute_id": "vm",
-                "console": 5000,
+                "console": 5022,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -466,7 +466,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5002,
+                "console": 5025,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -495,7 +495,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5004,
+                "console": 5027,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -524,7 +524,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5006,
+                "console": 5031,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -553,7 +553,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5008,
+                "console": 5033,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -582,7 +582,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5010,
+                "console": 5035,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -611,7 +611,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5012,
+                "console": 5037,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -631,13 +631,13 @@
                 "port_name_format": "Ethernet{segment0}/{port0}",
                 "port_segment_size": 4,
                 "properties": {
-                    "application_id": 1,
+                    "application_id": 2,
                     "ethernet_adapters": 4,
                     "l1_keepalives": false,
                     "md5sum": "0b8b9e14ca99b68c654e44c4296857ba",
-                    "nvram": 16,
+                    "nvram": 256,
                     "path": "i86bi-linux-l2-ipbasek9-15.1g.bin",
-                    "ram": 256,
+                    "ram": 1024,
                     "serial_adapters": 0,
                     "usage": "",
                     "use_default_iou_values": true
@@ -651,7 +651,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5013,
+                "console": 5038,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -682,7 +682,7 @@
                     "cpus": 1,
                     "create_config_disk": false,
                     "hda_disk_image": "vios-adventerprisek9-m.vmdk.SPA.156-1.T",
-                    "hda_disk_image_md5sum": "8617d2e4b068f199cf5bbcc19b2e5f05",
+                    "hda_disk_image_md5sum": "e7cb1bbd0c59280dd946feefa68fa270",
                     "hda_disk_interface": "virtio",
                     "hdb_disk_image": "IOSv_startup_config.img",
                     "hdb_disk_image_md5sum": "bc605651c4688276f81fd59dcf5cc786",
@@ -723,6 +723,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.56.1",
+    "version": "2.2.61",
     "zoom": 84
 }

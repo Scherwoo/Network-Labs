@@ -477,7 +477,7 @@
         "nodes": [
             {
                 "compute_id": "vm",
-                "console": 5013,
+                "console": 5000,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -506,7 +506,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5015,
+                "console": 5005,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -576,7 +576,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5017,
+                "console": 5007,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -646,7 +646,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5019,
+                "console": 5010,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -716,7 +716,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5021,
+                "console": 5027,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -786,7 +786,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5901,
+                "console": 5900,
                 "console_auto_start": false,
                 "console_type": "vnc",
                 "custom_adapters": [],
@@ -856,7 +856,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5024,
+                "console": 5030,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -896,7 +896,7 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5025,
+                "console": 5031,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
