@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.2.00.510">
+    <devices>
+        <dev id="3BAA95C6-7E7F-402e-A555-987E0589D45A" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-9C-39-40" com_port="2001" bootmode="0" cx="605.000000" cy="270.000000" edit_left="632" edit_top="324">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="023A4B51-B463-4227-9643-A94E3B7CCA36" name="R1" poe="0" model="Router" settings="" system_mac="54-89-98-BA-60-15" com_port="2000" bootmode="0" cx="605.000000" cy="66.000000" edit_left="632" edit_top="120">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="3C5BC95A-F8A5-4842-9E70-EDF834B851D9" name="PC2" poe="0" model="PC" settings=" -simpc_ip 10.10.10.253  -simpc_mask 255.255.255.0  -simpc_gateway 10.10.10.1  -simpc_mac 54-89-98-C9-61-78  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 9.9.9.9  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 1  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 1  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-C9-61-78" com_port="0" bootmode="0" cx="815.000000" cy="460.000000" edit_left="842" edit_top="514">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="198354FF-B8F5-4168-9797-9389F1AE5A5A" name="PC1" poe="0" model="PC" settings=" -simpc_ip 10.10.10.254  -simpc_mask 255.255.255.0  -simpc_gateway 10.10.10.1  -simpc_mac 54-89-98-43-73-9B  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 9.9.9.9  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 1  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 1  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-43-73-9B" com_port="0" bootmode="0" cx="408.000000" cy="460.000000" edit_left="435" edit_top="514">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="3BAA95C6-7E7F-402e-A555-987E0589D45A" destDeviceID="198354FF-B8F5-4168-9797-9389F1AE5A5A">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="600.917236" srcBoundRect_Y="326.978302" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="466.082764" tarBoundRect_Y="457.021698" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="3BAA95C6-7E7F-402e-A555-987E0589D45A" destDeviceID="3C5BC95A-F8A5-4842-9E70-EDF834B851D9">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="664.022278" srcBoundRect_Y="325.972565" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="809.977722" tarBoundRect_Y="458.027435" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="023A4B51-B463-4227-9643-A94E3B7CCA36" destDeviceID="3BAA95C6-7E7F-402e-A555-987E0589D45A">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="632.000000" srcBoundRect_Y="136.183762" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="632.000000" tarBoundRect_Y="253.816238" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="2" filloption="1" color="16711935" upleftcorner="312,31" width="669" height="586" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="2" filloption="1" color="16711935" upleftcorner="874,154" width="2" height="1" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="144" top="681" right="941" bottom="838" content="Instructions:&#x0D;&#x0A;&#x0D;&#x0A;1.Start up the devices&#x0D;&#x0A;2.Configure the name of the router as DHCP SERVER.&#x0D;&#x0A;3.We are using our router as our dhcp server following the steps below.&#x0D;&#x0A;  a.Enable dhcp on dhcp server&#x0D;&#x0A;  b.Put ip address on G0/0/0 -10.10.10.1/24&#x0D;&#x0A;  c.Let the dhcp work on the interfaces G0/0/0&#x0D;&#x0A;  d.Configure the pull to provide dns(9.9.9.9) ,the lease period should be 3 days and exclude 10.10.10.2&#x0D;&#x0A;4.Enable dhcp on PC1 PC2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-4144960" charset="1" />
+    </txttips>
+</topo>
