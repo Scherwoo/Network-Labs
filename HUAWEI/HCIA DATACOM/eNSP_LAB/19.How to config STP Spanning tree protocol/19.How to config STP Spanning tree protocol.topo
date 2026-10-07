@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.2.00.510">
+    <devices>
+        <dev id="8A709B7F-D85E-47e5-8F91-7E968AB3C622" name="LSW1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-42-23-BD" com_port="2000" bootmode="0" cx="318.000000" cy="182.000000" edit_left="345" edit_top="236">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="8429BDD5-1BDC-433f-9BE4-4904A54197A7" name="LSW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-B0-2B-AD" com_port="2001" bootmode="0" cx="723.000000" cy="182.000000" edit_left="750" edit_top="236">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="8A709B7F-D85E-47e5-8F91-7E968AB3C622" destDeviceID="8429BDD5-1BDC-433f-9BE4-4904A54197A7">
+            <interfacePair lineName="Copper" srcIndex="22" srcBoundRectIsMoved="0" srcBoundRect_X="388.183777" srcBoundRect_Y="209.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="22" tarBoundRectIsMoved="0" tarBoundRect_X="706.816223" tarBoundRect_Y="209.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="23" srcBoundRectIsMoved="0" srcBoundRect_X="400.183777" srcBoundRect_Y="221.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="23" tarBoundRectIsMoved="0" tarBoundRect_X="718.816223" tarBoundRect_Y="221.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
