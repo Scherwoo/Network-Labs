@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.2.00.510">
+    <devices>
+        <dev id="ADC43431-F782-45da-A7C0-A814D870776D" name="AR2" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-FE-5B-F6" com_port="2005" bootmode="0" cx="796.000000" cy="181.000000" edit_left="823" edit_top="235">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+        <dev id="53B28131-2A8A-4349-B1D9-DB2F2FDB19F6" name="AR1" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-70-39-CA" com_port="2000" bootmode="0" cx="313.000000" cy="181.000000" edit_left="340" edit_top="235">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="53B28131-2A8A-4349-B1D9-DB2F2FDB19F6" destDeviceID="ADC43431-F782-45da-A7C0-A814D870776D">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="383.183777" srcBoundRect_Y="208.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="779.816223" tarBoundRect_Y="208.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="854" top="153" right="964" bottom="170" content="192.168.1.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="182" top="154" right="292" bottom="171" content="192.168.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="530" top="99" right="662" bottom="116" content="AAA Configuration" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
